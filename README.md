@@ -70,7 +70,11 @@ This Python script utilizes the Twitter API and Telegram API to update a user's 
  5. Defines a function `update_bio()` that calculates the time elapsed since the earthquake and updates the user's Twitter bio accordingly. The function takes into account the years, months, days, hours, and minutes passed since the event and composes the new bio text.
  6. Within the `update_bio()` function, it attempts to update the user's profile description (bio) with the new text using the Twitter API. If successful, it prints the updated bio to the console. In case of any errors, it prints the error message and sends it via the Telegram bot to the specified chat ID.
  7. The script then runs the `update_bio()` function in an infinite loop with a 60-second interval between iterations.
- 
+
+## Screenshot
+
+![My Twitter Profile](images/my-twitter-profile.png)
+
 ## License
 
 [MIT License](LICENSE)
