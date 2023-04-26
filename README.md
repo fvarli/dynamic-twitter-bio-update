@@ -41,7 +41,7 @@ source venv/bin/activate
 Copy the env-example file to create your own .env file:
 
 ```bash
-cp env-example .env
+cp .env-example .env
 ```
 
 Then, open the `.env` file and replace the `YOUR_CONSUMER_KEY`, `YOUR_CONSUMER_SECRET`, `YOUR_ACCESS_TOKEN` and `YOUR_ACCESS_TOKEN_SECRET` placeholders with your actual Twitter API keys and tokens. For Telegram notification, it is up to you.
