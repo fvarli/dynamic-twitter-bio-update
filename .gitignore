@@ -1,0 +1,6 @@
+# Virtual Environment
+twitter_bio_updater/
+__pycache__/
+
+# Environment Variables
+.env
